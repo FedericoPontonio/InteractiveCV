@@ -1,0 +1,33 @@
+
+
+.MainSection {
+    display: grid;
+    grid-template-rows: 4fr 4fr 1fr;
+    margin: 20px;
+}
+
+.mainSectionParagraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.experienceInstance {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 5px;
+}
+.experienceInstance> :first-child {
+    grid-row: span 2;
+}
+.experienceTitle{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.footerAuthorization {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 10px;
+}

@@ -1,0 +1,47 @@
+.rootComponent {
+    background-color: rgb(246,238,227);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 300px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    min-height: 98vh;
+    max-width: 2480px;
+    max-height: 3508px;
+    overflow: auto;
+}
+@media print {
+    .buttonWrapper {
+      visibility: hidden;
+    }
+    .rootComponent {
+      visibility: visible;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: none, none;
+      margin: 0;
+      zoom: 0.7;
+      font-size: 25px;
+    }
+    :root{
+      background-color: white;
+    }
+  }
+
+.imageSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageSection,.LeftColumn {
+  background-color: rgb(214, 203, 187);
+  box-shadow: 2px 0px 0px rgba(51, 52, 36, 0.2);
+}
+.imageSection>img {
+    border-radius: 50%;
+    height: 250px;
+    box-shadow: 12px 12px 2px 1px rgba(138, 138, 192, 0.2);
+}

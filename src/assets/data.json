@@ -1,0 +1,101 @@
+{
+    "it": {
+      "name": "Federico Pontonio",
+      "contact": {
+        "address": "Via Amerigo Vespucci, 23, 20040 Cambiago (MI)",
+        "phone": "+39 334 533 1634",
+        "email": "pontonio.federico@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/federico-pontonio/",
+        "github": "https://github.com/FedericoPontonio"
+      },
+      "summary": "Sono uno sviluppatore web autodidatta, alla ricerca della mia prima opportunità nel settore. Come primo impiego non mi aspetto né ambisco a posizioni di rilievo. La mia priorità è mettere alla prova in progetti reali tutto quello che ho imparato e apprendere il più possibile da sviluppatori consolidati. Sono certo di poter dare il mio contributo, data la natura pratica dei corsi che ho seguito.",
+      "education": [
+        {
+          "title": "The Odin Project",
+          "subtitle": "Full Stack Web Development",
+          "date": "09/2023 - Presente"
+        },
+        {
+          "title": "Meta Backend Developer Specialization",
+          "subtitle": "Backend Web Development",
+          "date": "04/2022 - 09/2023"
+        },
+        {
+          "title": "Diploma, Amministrazione Finanza e Marketing",
+          "subtitle": "I.I.S. Mosè Bianchi, Monza (MB)",
+          "date": "09/2015 - 07/2019"
+        }
+      ],
+      "experience": [
+        {
+          "role": "Autista",
+          "company": "Cazzaniga Autotrasporti, Villasanta (MB)",
+          "date": "04/2021 - 01/2023"
+        },
+        {
+          "role": "Cuoco",
+          "company": "Obikà, Milano (MI)",
+          "date": "04/2015 - 05/2019"
+        }
+      ],
+      "skills": [
+        "Javascript", "HTML", "CSS", "React", "SQL", "Node.js", "Express", "Git"
+      ],
+      "languages": [
+        { "language": "Italiano", "level": "Madrelingua" },
+        { "language": "Inglese", "level": "C1" },
+        { "language": "Spagnolo", "level": "A2" }
+      ],
+      "privacy_consent": "Autorizzo il trattamento dei miei dati personali ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 e del GDPR (Regolamento UE 2016/679)."
+    },
+    "en": {
+      "name": "Federico Pontonio",
+      "contact": {
+        "address": "Via Amerigo Vespucci, 23, 20040 Cambiago (MI)",
+        "phone": "+39 334 533 1634",
+        "email": "pontonio.federico@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/federico-pontonio/",
+        "github": "https://github.com/FedericoPontonio"
+      },
+      "summary": "I’m a self-taught web developer looking for my first opportunity in the industry. I’m not aiming for senior roles as a first job—my priority is to apply everything I’ve learned in real-world projects and learn as much as possible from experienced developers. I’m confident I can contribute, thanks to the practical nature of the courses I’ve taken.",
+      "education": [
+        {
+          "title": "The Odin Project",
+          "subtitle": "Full Stack Web Development",
+          "date": "09/2023 - Present"
+        },
+        {
+          "title": "Meta Backend Developer Specialization",
+          "subtitle": "Backend Web Development",
+          "date": "04/2022 - 09/2023"
+        },
+        {
+          "title": "High School Diploma, Business Administration, Finance and Marketing",
+          "subtitle": "I.I.S. Mosè Bianchi, Monza (MB)",
+          "date": "09/2015 - 07/2019"
+        }
+      ],
+      "experience": [
+        {
+          "role": "Driver",
+          "company": "Cazzaniga Autotrasporti, Villasanta (MB)",
+          "date": "04/2021 - 01/2023"
+        },
+        {
+          "role": "Cook",
+          "company": "Obikà, Milan (MI)",
+          "date": "04/2015 - 05/2019"
+        }
+      ],
+      "skills": [
+        "Javascript", "HTML", "CSS", "React", "SQL", "Node.js", "Express", "Git"
+      ],
+      "languages": [
+        { "language": "Italian", "level": "Native" },
+        { "language": "English", "level": "C1" },
+        { "language": "Spanish", "level": "A2" }
+      ],
+      "privacy_consent": "I authorize the processing of my personal data under Italian Legislative Decree 30 June 2003, n. 196 and the GDPR (EU Regulation 2016/679)."
+    }
+  }
+  
