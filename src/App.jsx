@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className='rootComponent'>
+      <div>hello</div>
       <div className='imageSection' ><img src={image} alt='image'/></div>
       <MainSectionHeader changeLenguage = {setLenguage} lenguageSelected = {lenguage} />
       <LeftColumn lenguageSelected = {lenguage} />
