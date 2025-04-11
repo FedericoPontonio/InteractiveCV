@@ -1,9 +1,11 @@
 import data from '../../../assets/data.json'
+import metaCertificate from '../../../assets/metaCertificate.pdf'
 
-function Education({lenguageSelected}) {
+function Education({lenguageSelected, setModalContent, setModalViaible}) {
 
     const relevantDataIt = data.it.education;
     const relevantDataEn = data.en.education;
+
 
     const educationSectionToRender = function(relevantData) {
             const result = relevantData.map((education, index) => {

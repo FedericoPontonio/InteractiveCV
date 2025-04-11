@@ -16,11 +16,12 @@ import sqlSVG from '../../assets/sql.svg'
 import itaSVG from '../../assets/ita.svg'
 import ukSVG from '../../assets/uk.svg'
 import esSVG from '../../assets/es.svg'
+import englishBadge from '../../assets/englishBadge.png'
 
 import data from '../../assets/data.json'
 
 
-function LeftColumn({lenguageSelected}) {
+function LeftColumn({lenguageSelected, setModalContent, setModalVisible}) {
 
 
     const contactSection = function () {
@@ -63,16 +64,22 @@ function LeftColumn({lenguageSelected}) {
         const itaData = data.it.languages;
         const engData = data.en.languages;
 
+        const modalEnglishLanguage = ()=> {
+            return (<div>
+                <img src={englishBadge} alt="english badge" />
+            </div>)
+        }
+
         const italianVersion = ()=>
             <ul>
                 <li><img src={itaSVG} alt="bandiera italiana" /><p>{itaData[0].language} - {itaData[0].level}</p></li>
-                <li><img src={ukSVG} alt="bandiera inglese" /><p>{itaData[1].language} - {itaData[1].level}</p></li>
+                <li className='interactableLi' onClick={()=>{setModalContent(modalEnglishLanguage); setModalVisible(true)}}><img  src={ukSVG} alt="bandiera inglese" /><p>{itaData[1].language} - {itaData[1].level}</p></li>
                 <li><img src={esSVG} alt="bandiera spagnola" /><p>{itaData[2].language} - {itaData[2].level}</p></li>
             </ul>;
         const englishVersion = ()=>
             <ul>
                 <li><img src={itaSVG} alt="italian flag" /><p>{engData[0].language} - {engData[0].level}</p></li>
-                <li><img src={ukSVG} alt="UK flag" /><p>{engData[1].language} - {engData[1].level}</p></li>
+                <li  className='interactableLi' onClick={()=>{setModalContent(modalEnglishLanguage); setModalVisible(true)}}><img src={ukSVG} alt="UK flag" /><p>{engData[1].language} - {engData[1].level}</p></li>
                 <li><img src={esSVG} alt="spanish flag" /><p>{engData[2].language} - {engData[2].level}</p></li>
             </ul>
 
