@@ -1,5 +1,8 @@
 Dove sono arrivato:
-    aggiunto modal component. prima prova fatta con badge inglese. aggiunto certificato meta e stavo per inserirlo.
-    problema: exp lavorative e studi sono impostati con array.map. in questo modo non posso impostare uno specifico contenuto nel modal.
-        -rifactorare e aggiungere uno per uno? (sono solo 5 elementi in totale)
-        -oppure trovare modo per inserire nel json anche i contenuti del modal? (un casino. dovrei limitarmi nell'impostazione del contenuto, gestire quando non ce n'è ecc)
+    completata prima bozza del contenuto di Education.
+
+Prossimi passi:
+    -inserire qualche descrizione avvincente per i miei meravigliosi lavori come cuoco e autista.
+    -inserire link sulla mia email.
+    -inserire contenuti per la lista di skills.
+    -aggiungere una bio.

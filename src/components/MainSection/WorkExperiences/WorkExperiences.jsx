@@ -1,6 +1,6 @@
 import data from '../../../assets/data.json'
 
-function WorkExperiences({lenguageSelected}) {
+function WorkExperiences({languageSelected}) {
 
     const relevantDataIt = data.it.experience;
     const relevantDataEn = data.en.experience;
@@ -19,7 +19,7 @@ function WorkExperiences({lenguageSelected}) {
         )
         return (
             <div className="mainSectionParagraph">
-                <h2 className='leftColumnsHeader'>{lenguageSelected === 'it' ? 'Esperienze Lavorative' : 'Work Experiences'}</h2>
+                <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Esperienze Lavorative' : 'Work Experiences'}</h2>
                 {
                     result
                 }
@@ -30,7 +30,7 @@ function WorkExperiences({lenguageSelected}) {
     return(
         <>
             {
-                lenguageSelected === 'it' ? workExpSectionToRender(relevantDataIt) : workExpSectionToRender(relevantDataEn)
+                languageSelected === 'it' ? workExpSectionToRender(relevantDataIt) : workExpSectionToRender(relevantDataEn)
             }
         </>
     )

@@ -1,0 +1,55 @@
+
+
+#metaCertificateImg {
+    width: 50vw;
+    border-radius: 20px;
+}
+
+.the-odin-project {
+    background-color: #f9f9f9; /* leggera sfumatura per far risaltare la sezione */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .the-odin-project p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    /* font-size: 15px; */
+    color: #333;
+  }
+  
+  .the-odin-project ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .the-odin-project li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 1rem;
+    /* font-size: 15px; */
+    color: #444;
+  }
+  
+  .the-odin-project li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #556031;
+    font-weight: bold;
+  }
+  
+  .the-odin-project a {
+    display: flex;
+    justify-content: center;
+  }
+  #theOdinProjectImg {
+    width: 60%;
+  }

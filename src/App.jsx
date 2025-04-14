@@ -8,16 +8,16 @@ import MainSection from './components/MainSection/MainSection'
 import Modal from './components/Modal/Modal'
 function App() {
 
-  const [lenguage, setLenguage] = useState('it');
+  const [language, setLanguage] = useState('it');
   const [modalVisible, setModalVisible] = useState(false);
   const [modalContent, setModalContent] = useState();
 
   return (
     <div className='rootComponent'>
       <div className='imageSection' ><img src={image} alt='image'/></div>
-      <MainSectionHeader changeLenguage = {setLenguage} lenguageSelected = {lenguage} />
-      <LeftColumn lenguageSelected = {lenguage} setModalContent ={setModalContent} setModalVisible = {setModalVisible} />
-      <MainSection lenguageSelected = {lenguage} data ={data}  setModalContent ={setModalContent} setModalVisible = {setModalVisible} />
+      <MainSectionHeader changeLanguage = {setLanguage} languageSelected = {language} />
+      <LeftColumn languageSelected = {language} setModalContent ={setModalContent} setModalVisible = {setModalVisible} />
+      <MainSection languageSelected = {language} data ={data}  setModalContent ={setModalContent} setModalVisible = {setModalVisible} />
       <Modal modalContent={modalContent} modalVisible = {modalVisible} setModalVisible = {setModalVisible} />
     </div>
   )

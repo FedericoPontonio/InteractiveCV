@@ -33,7 +33,7 @@
     align-items: start;
     margin: 20px;
 }
-#changeLenguageButton {
+#changeLanguageButton {
     width: 60px;
     height: 60px;
     font-size: larger;
@@ -41,7 +41,7 @@
     border: none;
     transition: all 0.3s ease-in-out;
 }
-#changeLenguageButton:hover {
+#changeLanguageButton:hover {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     transform: scale(1.1);

@@ -3,8 +3,8 @@ import clickIcon from '../../assets/clickIcon.svg'
 
 function mainSectionHeader (props) {
 
-    function handleChangeLenguage(lenguageSelected) {
-        lenguageSelected === 'it' ? props.changeLenguage('en') : props.changeLenguage('it');
+    function handleChangeLanguage(languageSelected) {
+        languageSelected === 'it' ? props.changeLanguage('en') : props.changeLanguage('it');
     }
 
 
@@ -16,7 +16,7 @@ function mainSectionHeader (props) {
             </div>
             <div className='buttonWrapper'>
                 <img id='clickIcon' src={clickIcon} alt="click icon" />
-                <button id='changeLenguageButton' className={props.lenguageSelected === 'it' ? 'itaBackground' : 'ukBackground'}  onClick={()=> handleChangeLenguage(props.lenguageSelected)}></button>
+                <button id='changeLanguageButton' className={props.languageSelected === 'it' ? 'itaBackground' : 'ukBackground'}  onClick={()=> handleChangeLanguage(props.languageSelected)}></button>
             </div>
         </div>
     )

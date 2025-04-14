@@ -21,7 +21,7 @@ import englishBadge from '../../assets/englishBadge.png'
 import data from '../../assets/data.json'
 
 
-function LeftColumn({lenguageSelected, setModalContent, setModalVisible}) {
+function LeftColumn({languageSelected, setModalContent, setModalVisible}) {
 
 
     const contactSection = function () {
@@ -29,7 +29,7 @@ function LeftColumn({lenguageSelected, setModalContent, setModalVisible}) {
 
         return (
             <>
-                <h2 className='leftColumnsHeader'>{lenguageSelected === 'it' ? 'Contatti' : 'Contacts'}</h2>
+                <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Contatti' : 'Contacts'}</h2>
                 <ul>
                     <li><img src={addressSVG} alt="Address Icon" /> <p>{relevantData.address}</p></li>
                     <li><img src={phoneSVG} alt="phone Icon" /> <p>{relevantData.phone}</p></li>
@@ -45,7 +45,7 @@ function LeftColumn({lenguageSelected, setModalContent, setModalVisible}) {
     const skillsSection = function () {
         return (
             <>
-                <h2 className='leftColumnsHeader'>{lenguageSelected === 'it' ? 'Competenze' : 'Skills'}</h2>
+                <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Competenze' : 'Skills'}</h2>
                 <ul>
                     <li><img src={htmlSVG} alt="html icon" /><p>HTML</p></li>
                     <li><img src={cssSVG} alt="css icon" /><p>CSS</p></li>
@@ -60,7 +60,7 @@ function LeftColumn({lenguageSelected, setModalContent, setModalVisible}) {
 
     }
 
-    const lenguagesSection = function () {
+    const languagesSection = function () {
         const itaData = data.it.languages;
         const engData = data.en.languages;
 
@@ -73,20 +73,20 @@ function LeftColumn({lenguageSelected, setModalContent, setModalVisible}) {
         const italianVersion = ()=>
             <ul>
                 <li><img src={itaSVG} alt="bandiera italiana" /><p>{itaData[0].language} - {itaData[0].level}</p></li>
-                <li className='interactableLi' onClick={()=>{setModalContent(modalEnglishLanguage); setModalVisible(true)}}><img  src={ukSVG} alt="bandiera inglese" /><p>{itaData[1].language} - {itaData[1].level}</p></li>
+                <li className='interactableItem' onClick={()=>{setModalContent(modalEnglishLanguage); setModalVisible(true)}}><img  src={ukSVG} alt="bandiera inglese" /><p>{itaData[1].language} - {itaData[1].level}</p></li>
                 <li><img src={esSVG} alt="bandiera spagnola" /><p>{itaData[2].language} - {itaData[2].level}</p></li>
             </ul>;
         const englishVersion = ()=>
             <ul>
                 <li><img src={itaSVG} alt="italian flag" /><p>{engData[0].language} - {engData[0].level}</p></li>
-                <li  className='interactableLi' onClick={()=>{setModalContent(modalEnglishLanguage); setModalVisible(true)}}><img src={ukSVG} alt="UK flag" /><p>{engData[1].language} - {engData[1].level}</p></li>
+                <li  className='interactableItem' onClick={()=>{setModalContent(modalEnglishLanguage); setModalVisible(true)}}><img src={ukSVG} alt="UK flag" /><p>{engData[1].language} - {engData[1].level}</p></li>
                 <li><img src={esSVG} alt="spanish flag" /><p>{engData[2].language} - {engData[2].level}</p></li>
             </ul>
 
         return(
             <>
-                <h2 className='leftColumnsHeader'>{lenguageSelected === 'it' ? 'Lingue' : 'Languages'}</h2>
-                {lenguageSelected === 'it' ? italianVersion() : englishVersion()}
+                <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Lingue' : 'Languages'}</h2>
+                {languageSelected === 'it' ? italianVersion() : englishVersion()}
             </>
         )
     }
@@ -95,7 +95,7 @@ function LeftColumn({lenguageSelected, setModalContent, setModalVisible}) {
         <div className="LeftColumn">
             {contactSection()}
             {skillsSection()}
-            {lenguagesSection()}
+            {languagesSection()}
         </div>
     )
 }

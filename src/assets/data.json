@@ -11,16 +11,21 @@
       "summary": "Sono uno sviluppatore web autodidatta, alla ricerca della mia prima opportunità nel settore. Come primo impiego non mi aspetto né ambisco a posizioni di rilievo. La mia priorità è mettere alla prova in progetti reali tutto quello che ho imparato e apprendere il più possibile da sviluppatori consolidati. Sono certo di poter dare il mio contributo, data la natura pratica dei corsi che ho seguito.",
       "education": [
         {
+          "id": "2",
           "title": "The Odin Project",
           "subtitle": "Full Stack Web Development",
-          "date": "09/2023 - Presente"
+          "date": "09/2023 - Presente",
+          "description": "descrizione di the odin project"
         },
         {
+          "id": "1",
           "title": "Meta Backend Developer Specialization",
           "subtitle": "Backend Web Development",
-          "date": "04/2022 - 09/2023"
+          "date": "04/2022 - 09/2023",
+          "description": "Certificato di completamento del corso."
         },
         {
+          "id": "0",
           "title": "Diploma, Amministrazione Finanza e Marketing",
           "subtitle": "I.I.S. Mosè Bianchi, Monza (MB)",
           "date": "09/2015 - 07/2019"
@@ -62,17 +67,22 @@
         {
           "title": "The Odin Project",
           "subtitle": "Full Stack Web Development",
-          "date": "09/2023 - Present"
+          "date": "09/2023 - Present",
+          "description": "the odin project descritpion",
+          "id": "2"
         },
         {
           "title": "Meta Backend Developer Specialization",
           "subtitle": "Backend Web Development",
-          "date": "04/2022 - 09/2023"
+          "date": "04/2022 - 09/2023",
+          "description": "Certificate of completion.",
+          "id": "1"
         },
         {
           "title": "High School Diploma, Business Administration, Finance and Marketing",
           "subtitle": "I.I.S. Mosè Bianchi, Monza (MB)",
-          "date": "09/2015 - 07/2019"
+          "date": "09/2015 - 07/2019",
+          "id": "0"
         }
       ],
       "experience": [

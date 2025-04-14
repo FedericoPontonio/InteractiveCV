@@ -45,3 +45,17 @@
     height: 250px;
     box-shadow: 12px 12px 2px 1px rgba(138, 138, 192, 0.2);
 }
+
+.interactableItem{
+  transition: 0.5s ease;
+
+}
+.interactableItem:hover {
+    cursor: pointer;
+    transform: scaleY(1.2) scaleX(1.05);
+    border: solid black 1px;
+    border-radius: 5px;
+    transform-origin: left;
+    background-color: rgba(0, 0, 0, 0.068);
+    transition: 0.5s ease;
+}
