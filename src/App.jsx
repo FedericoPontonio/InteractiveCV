@@ -11,13 +11,14 @@ function App() {
   const [language, setLanguage] = useState('it');
   const [modalVisible, setModalVisible] = useState(false);
   const [modalContent, setModalContent] = useState();
+  const [staticView, setStaticView] = useState(false);
 
   return (
     <div className='rootComponent'>
       <div className='imageSection' ><img src={image} alt='image'/></div>
-      <MainSectionHeader changeLanguage = {setLanguage} languageSelected = {language} />
+      <MainSectionHeader changeLanguage = {setLanguage} languageSelected = {language} setStaticView = {setStaticView} staticView={staticView} />
       <LeftColumn languageSelected = {language} setModalContent ={setModalContent} setModalVisible = {setModalVisible} />
-      <MainSection languageSelected = {language} data ={data}  setModalContent ={setModalContent} setModalVisible = {setModalVisible} />
+      <MainSection languageSelected = {language} data ={data}  setModalContent ={setModalContent} setModalVisible = {setModalVisible} staticView={staticView} />
       <Modal modalContent={modalContent} modalVisible = {modalVisible} setModalVisible = {setModalVisible} />
     </div>
   )

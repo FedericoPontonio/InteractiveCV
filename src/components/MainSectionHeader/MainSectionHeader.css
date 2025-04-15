@@ -28,8 +28,9 @@
 }
 
 .buttonWrapper {
-    display: flex;
-    justify-content: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 100px;
     align-items: start;
     margin: 20px;
 }
@@ -40,6 +41,7 @@
     font-weight: 700;
     border: none;
     transition: all 0.3s ease-in-out;
+    position: relative;
 }
 #changeLanguageButton:hover {
     cursor: pointer;
@@ -49,6 +51,30 @@
 #clickIcon {
     width: 20px;
     animation: pulse 4s linear infinite;
+    z-index: 1;
+}
+#switchViewModeButton {
+    grid-column: 2/3;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center
+}
+#buttonSphere{
+    width: 70%;
+    height: 110%;
+    border-radius: 50%;
+
+}
+.sliderSelected {
+    transform: translateX(65%);
+    transition: 0.5s ease;
+    background-color: rgb(62, 133, 27);
+}
+.sliderUnselected {
+    background-color: rgba(87, 72, 67, 0.644);
+    transform: translateX(-21%);
+    transition: 0.5s ease;
 }
 
 
