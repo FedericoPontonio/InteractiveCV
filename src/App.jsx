@@ -17,7 +17,7 @@ function App() {
     <div className='rootComponent'>
       <div className='imageSection' ><img src={image} alt='image'/></div>
       <MainSectionHeader changeLanguage = {setLanguage} languageSelected = {language} setStaticView = {setStaticView} staticView={staticView} />
-      <LeftColumn languageSelected = {language} setModalContent ={setModalContent} setModalVisible = {setModalVisible} />
+      <LeftColumn languageSelected = {language} setModalContent ={setModalContent} setModalVisible = {setModalVisible} staticView={staticView} />
       <MainSection languageSelected = {language} data ={data}  setModalContent ={setModalContent} setModalVisible = {setModalVisible} staticView={staticView} />
       <Modal modalContent={modalContent} modalVisible = {modalVisible} setModalVisible = {setModalVisible} />
     </div>

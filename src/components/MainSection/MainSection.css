@@ -16,6 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 5px;
+    border-bottom: solid rgba(0, 0, 0, 0.393) 1px;
 }
 .experienceInstance> :first-child {
     grid-row: span 2;
@@ -23,6 +24,15 @@
 .experienceTitle{
     margin: 0;
     margin-bottom: 10px;
+}
+
+.experienceDescription {
+    grid-column: 2/3;
+    border-top: dashed rgba(0, 0, 0, 0.393) 1px;
+    border-left: dashed rgba(0, 0, 0, 0.393) 1px;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: sans-serif;
 }
 
 .footerAuthorization {

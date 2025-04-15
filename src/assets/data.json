@@ -15,14 +15,14 @@
           "title": "The Odin Project",
           "subtitle": "Full Stack Web Development",
           "date": "09/2023 - Presente",
-          "description": "descrizione di the odin project"
+          "description": "Formazione full-stack incentrata sulla pratica, con progetti reali a supporto. Demo accessibili dal link GitHub incluso in questo documento."
         },
         {
           "id": "1",
           "title": "Meta Backend Developer Specialization",
           "subtitle": "Backend Web Development",
           "date": "04/2022 - 09/2023",
-          "description": "Certificato di completamento del corso."
+          "description": "Corso focalizzato sul back-end web con Python, Django e relativo ecosistema."
         },
         {
           "id": "0",
@@ -68,14 +68,14 @@
           "title": "The Odin Project",
           "subtitle": "Full Stack Web Development",
           "date": "09/2023 - Present",
-          "description": "the odin project descritpion",
+          "description": "Full-stack training with a strong hands-on focus and real-world projects. Demos available through the GitHub link in this document.",
           "id": "2"
         },
         {
           "title": "Meta Backend Developer Specialization",
           "subtitle": "Backend Web Development",
           "date": "04/2022 - 09/2023",
-          "description": "Certificate of completion.",
+          "description": "This Meta course focused on the development of the backend of web applications. The main focus was Python, Django, and its ecosystem.",
           "id": "1"
         },
         {

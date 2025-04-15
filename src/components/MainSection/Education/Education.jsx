@@ -2,7 +2,7 @@ import data from '../../../assets/data.json'
 import './Education.css'
 import metaCertificate from '../../../assets/metaCertificate.jpg'
 
-function Education({languageSelected, setModalContent, setModalVisible}) {
+function Education({languageSelected, setModalContent, setModalVisible, staticView}) {
 
     const relevantData = data[languageSelected].education;
 
@@ -55,18 +55,19 @@ function Education({languageSelected, setModalContent, setModalVisible}) {
             const result = relevantData.map((education) => {
                 return (
                     <div 
-                        className={`experienceInstance ${education.id === '1' && 'interactableItem' || education.id === '2' ? 'interactableItem' : ''}`}
+                        className={`experienceInstance ${(education.id === '1' && !staticView) && 'interactableItem' || (education.id === '2' && !staticView) ? 'interactableItem' : ''}`}
                         key={education.id}
                         onClick={
-                            (education.id === '1' || education.id === '2') 
+                            (education.id === '1' || education.id === '2') && (!staticView) 
                                 ? () => { setModalVisible(true); setModalContent(setModelContentById(education.id)); }
                                 : undefined
                         }
+                        
                         >
                             <div>{education.date}</div>
                             <h4 className='experienceTitle'>{education.title}</h4>
                             <div>{education.subtitle}</div>
-                            {/* <div>{education.description}</div> */}
+                            {(education.description && staticView) && <div className='experienceDescription'>{education.description}</div>}
                     </div>
                 )
             }

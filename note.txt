@@ -1,5 +1,6 @@
 Dove sono arrivato:
     completata prima bozza del contenuto di Education.
+    inserita variante non interattiva in Education.
 
 Prossimi passi:
     -inserire qualche descrizione avvincente per i miei meravigliosi lavori come cuoco e autista.

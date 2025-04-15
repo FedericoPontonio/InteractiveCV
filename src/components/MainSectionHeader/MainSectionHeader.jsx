@@ -16,7 +16,7 @@ function mainSectionHeader (props) {
             <div className='buttonWrapper'>
                 <img id='clickIcon' src={clickIcon} alt="click icon" />
                 <button id='changeLanguageButton' className={props.languageSelected === 'it' ? 'itaBackground' : 'ukBackground'}  onClick={()=> handleChangeLanguage(props.languageSelected)}></button>
-                <p></p>
+                <p id='toggleButtonDescription'>Toggle interactive view</p>
                 <button onClick={()=>props.setStaticView(!props.staticView)} id='switchViewModeButton'><div className={props.staticView ? 'sliderSelected' : 'sliderUnselected'} id='buttonSphere'></div></button>
             </div>
         </div>
