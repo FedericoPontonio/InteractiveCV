@@ -22,10 +22,9 @@
     flex-direction: column;
     align-items: center;
     min-width: 20vw;
-    max-width: 80vw;
+    max-width: 60vw;
     min-height: 40vh;
-    max-height: 80vh;
-    padding: 5%;
+    padding: 2%;
     background-color: rgb(246, 238, 227);
     border-radius: 30px;
 }
@@ -56,5 +55,15 @@
     100% {
         display: none;
         transform: translateY(-100%); /* End slightly above */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modalBackground>.modalContent {
+        padding: 1%;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: none;
+        max-height: none;
     }
 }

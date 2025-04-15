@@ -52,7 +52,7 @@
 }
 .interactableItem:hover {
     cursor: pointer;
-    transform: scaleY(1.2) scaleX(1.05);
+    transform: scaleY(1.2) scaleX(1.05) translateX(-10px);
     border: solid black 1px;
     border-radius: 5px;
     transform-origin: left;

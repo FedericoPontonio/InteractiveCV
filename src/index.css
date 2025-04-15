@@ -2,6 +2,15 @@
     background-color: rgb(167, 173, 178);
 }
 
+@media screen and (max-width: 600px) {
+    #root .rootComponent {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        zoom: 0.5;
+    }
+}
+
 /* * {
     border: solid 1px rgb(32, 31, 31, 0.1);
 } */

@@ -1,13 +1,13 @@
 
 
 #metaCertificateImg {
-    width: 50vw;
+    width: 80%;
     border-radius: 20px;
 }
 
 .the-odin-project {
     background-color: #f9f9f9; /* leggera sfumatura per far risaltare la sezione */
-    padding: 2rem;
+    padding: 2%;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     font-family: 'Segoe UI', sans-serif;
