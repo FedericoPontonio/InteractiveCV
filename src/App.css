@@ -41,7 +41,8 @@
   box-shadow: 2px 0px 0px rgba(51, 52, 36, 0.2);
 }
 .imageSection>img {
-    border-radius: 50%;
+    border-radius: 45%;
+    width: 250px;
     height: 250px;
     box-shadow: 12px 12px 2px 1px rgba(138, 138, 192, 0.2);
 }
