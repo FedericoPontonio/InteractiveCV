@@ -41,3 +41,8 @@
     justify-content: end;
     font-size: 10px;
 }
+
+.details {
+    font-size: 0.8em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}

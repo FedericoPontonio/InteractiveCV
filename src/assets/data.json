@@ -2,7 +2,7 @@
     "it": {
       "name": "Federico Pontonio",
       "contact": {
-        "address": "Via Amerigo Vespucci, 23, 20040 Cambiago (MI)",
+        "address": "Viale Giacomo Matteotti, 454, 20099 Sesto San Giovanni (MI)",
         "phone": "+39 334 533 1634",
         "email": "pontonio.federico@gmail.com",
         "linkedin": "https://www.linkedin.com/in/federico-pontonio/",
@@ -32,6 +32,12 @@
         }
       ],
       "experience": [
+        {
+          "role": "Full Stack Web Developer",
+          "company": "SXT - Sistemi per Telemedicina",
+          "date": "06/2025 - Presente",
+          "details": "Sviluppo e mantenimento di applicativi web in ambiente .NET ed Angular, nonchè cura del database, pipeline e rilasci."
+        },
         {
           "role": "Autista",
           "company": "Cazzaniga Autotrasporti, Villasanta (MB)",

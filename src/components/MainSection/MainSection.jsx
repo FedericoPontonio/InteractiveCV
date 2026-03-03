@@ -12,8 +12,8 @@ function MainSection({languageSelected, data, setModalContent, setModalVisible, 
 
     return (
         <div className='MainSection'>
-            <Education languageSelected = {languageSelected}  setModalContent ={setModalContent} setModalVisible = {setModalVisible} staticView={staticView} />
             <WorkExperiences languageSelected = {languageSelected}  setModalContent ={setModalContent} setModalVisible = {setModalVisible}  />
+            <Education languageSelected = {languageSelected}  setModalContent ={setModalContent} setModalVisible = {setModalVisible} staticView={staticView} />
             <div className='footerAuthorization'>{footerAuthorization()}</div>
         </div>
     )

@@ -50,16 +50,16 @@ function LeftColumn({languageSelected, setModalContent, setModalVisible, staticV
             <>
                 <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Competenze' : 'Skills'}</h2>
                 <ul>
+                    <li><img src={dotnet} alt="dotnet icon" />.NET</li>
+                    <li><img id='cs' src={cs} alt="c# icon" />C#</li>
+                    <li><img src={angular} alt="angular icon" />Angular</li>
+                    <li><img src={gitSVG} alt="git icon" /><p>Git</p></li>
+                    <li><img id='sqlIcon' src={sqlSVG} alt="sql icon" /><p>SQL</p></li>
                     <li><img src={htmlSVG} alt="html icon" /><p>HTML</p></li>
                     <li><img src={cssSVG} alt="css icon" /><p>CSS</p></li>
                     <li><img src={jsSVG} alt="js icon" /><p>JavaScript</p></li>
-                    <li><img id='cs' src={cs} alt="c# icon" />C#</li>
                     <li><img id='reactIcon' src={reactSVG} alt="react icon" /><p>React</p></li>
-                    <li><img src={angular} alt="angular icon" />Angular</li>
                     <li><img src={nodeSVG} alt="node icon" /><p>Node.js</p></li>
-                    <li><img src={dotnet} alt="dotnet icon" />.NET</li>
-                    <li><img src={gitSVG} alt="git icon" /><p>Git</p></li>
-                    <li><img id='sqlIcon' src={sqlSVG} alt="sql icon" /><p>SQL</p></li>
                 </ul>
             </>
         )    

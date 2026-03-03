@@ -11,7 +11,8 @@ function WorkExperiences({languageSelected}) {
                     <div className='experienceInstance' key={index}>
                         <div>{workExp.date}</div>
                         <h4 className='experienceTitle'>{workExp.role}</h4>
-                        <div>{workExp.company}</div>
+                        <div>{workExp.company}</div> <div></div>
+                        <div className='details'>{workExp.details}</div>
                         {/* <div>{education.description}</div> */}
                     </div>
                 )
