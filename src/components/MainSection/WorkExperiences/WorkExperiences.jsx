@@ -20,7 +20,7 @@ function WorkExperiences({languageSelected}) {
         )
         return (
             <div className="mainSectionParagraph">
-                <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Esperienze Lavorative' : 'Work Experience'}</h2>
+                <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Esperienze Lavorative' : 'Work Experiences'}</h2>
                 {
                     result
                 }
