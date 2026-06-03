@@ -1,36 +1,38 @@
- name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
- on:
+on:
   push:
-     branches:
-       - main
+    branches:
+      - main
 
- jobs:
-   build-and-deploy:
-     runs-on: ubuntu-latest
+permissions:
+  contents: write
 
-     steps:
-       - name: Checkout code
-         uses: actions/checkout@v3
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
-       - name: Set up Node.js
-         uses: actions/setup-node@v3
-         with:
-           node-version: 18
-           cache: "npm"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-       - name: Install dependencies
-         run: npm install
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "npm"
 
-       - name: Configure Git user
-         run: |
-           git config --global user.email "pontonio.federico@gmail.com"
-           git config --global user.name "Federico Pontonio"
+      - name: Install dependencies
+        run: npm install
 
-       - name: Build project
-         run: npm run build
+      - name: Build project
+        run: npm run build
 
-       - name: Deploy to GitHub Pages
-         run: npm run deploy
-         env:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.email "github-actions-bot@users.noreply.github.com"
+          git config --global user.name "github-actions-bot"
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy -- -u "github-actions-bot <github-actions-bot@users.noreply.github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
