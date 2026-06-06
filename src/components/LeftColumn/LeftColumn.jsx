@@ -35,7 +35,7 @@ function LeftColumn({languageSelected, setModalContent, setModalVisible, staticV
                 <h2 className='leftColumnsHeader'>{languageSelected === 'it' ? 'Contatti' : 'Contacts'}</h2>
                 <ul>
                     <li><img src={addressSVG} alt="Address Icon" /> <p>{relevantData.address}</p></li>
-                    <li><img src={phoneSVG} alt="phone Icon" /> <p>{relevantData.phone}</p></li>
+                    {/* <li><img src={phoneSVG} alt="phone Icon" /> <p>{relevantData.phone}</p></li> */}
                     <li><img src={emailSVG} alt="email Icon" /><p>{relevantData.email}</p></li>
                     <li><img src={githubSVG} alt="github Icon" /><a href={relevantData.github}>{staticView ? relevantData.github : 'Github'}</a></li>
                     <li><img src={linkedinSVG} alt="linkedin Icon" /><a href={relevantData.linkedin}>{staticView ? relevantData.linkedin : 'Linkedin'}</a></li>

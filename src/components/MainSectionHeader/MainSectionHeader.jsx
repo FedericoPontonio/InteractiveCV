@@ -11,7 +11,7 @@ function mainSectionHeader (props) {
         <div className='mainSectionHeader'>
             <div className='mainSectionHeaderContent'>
                 <h1>Federico Pontonio</h1>
-                <h2>Full Stack Web Developer</h2>
+                <h2>Full Stack Developer</h2>
             </div>
             <div className='buttonWrapper'>
                 <img id='clickIcon' src={clickIcon} alt="click icon" />

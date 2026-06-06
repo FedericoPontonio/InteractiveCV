@@ -2,8 +2,8 @@
   "it": {
     "name": "Federico Pontonio",
     "contact": {
-      "address": "Viale Giacomo Matteotti, 454, 20099 Sesto San Giovanni (MI)",
-      "phone": "+39 334 533 1634",
+      "address": "Sesto San Giovanni (MI)",
+      "phone": "",
       "email": "pontonio.federico@gmail.com",
       "linkedin": "https://www.linkedin.com/in/federico-pontonio/",
       "github": "https://github.com/FedericoPontonio"
@@ -14,15 +14,15 @@
         "id": "2",
         "title": "The Odin Project",
         "subtitle": "Full Stack Web Development",
-        "date": "09/2023 - Presente",
-        "description": "Formazione full-stack incentrata sulla pratica, con progetti reali a supporto. Demo accessibili dal link GitHub incluso in questo documento."
+        "date": "09/2023 - 04/2025",
+        "description": "Percorso pratico full stack incentrato sui fondamenti dello sviluppo web, JavaScript, React, Node.js e realizzazione di progetti applicativi."
       },
       {
         "id": "1",
         "title": "Meta Backend Developer Specialization",
         "subtitle": "Backend Web Development",
         "date": "04/2022 - 09/2023",
-        "description": "Corso focalizzato sul back-end web con Python, Django e relativo ecosistema."
+        "description": "Percorso di formazione backend incentrato su Python, Django, API, database e fondamenti dello sviluppo web lato server."
       },
       {
         "id": "0",
@@ -36,21 +36,17 @@
         "role": "Full Stack Web Developer",
         "company": "SXT - Sistemi per Telemedicina",
         "date": "06/2025 - Presente",
-        "details": "Sviluppo e mantenimento di applicativi web in ambiente .NET ed Angular, nonchè cura del database, pipeline e rilasci."
+        "details": "Sviluppo e manutenzione di applicativi web in ambiente .NET e Angular, con attività su frontend, backend, database, pipeline e rilasci."
       },
       {
-        "role": "Autista",
-        "company": "Cazzaniga Autotrasporti, Villasanta (MB)",
-        "date": "04/2021 - 01/2023"
-      },
-      {
-        "role": "Cuoco",
-        "company": "Obikà, Milano (MI)",
-        "date": "04/2015 - 05/2019"
+        "role": "Esperienze lavorative precedenti",
+        "details": "Esperienze pregresse in ambito logistica e ristorazione.",
+        "company": "Cazzaniga Autotrasporti; Obikà",
+        "date": "04/2015 - 01/2023"
       }
     ],
     "skills": [
-      "Javascript",
+      "JavaScript",
       "HTML",
       "CSS",
       "React",
@@ -78,8 +74,8 @@
   "en": {
     "name": "Federico Pontonio",
     "contact": {
-      "address": "Via Amerigo Vespucci, 23, 20040 Cambiago (MI)",
-      "phone": "+39 334 533 1634",
+      "address": "Sesto San Giovanni (MI)",
+      "phone": "",
       "email": "pontonio.federico@gmail.com",
       "linkedin": "https://www.linkedin.com/in/federico-pontonio/",
       "github": "https://github.com/FedericoPontonio"
@@ -87,24 +83,24 @@
     "summary": "",
     "education": [
       {
+        "id": "2",
         "title": "The Odin Project",
         "subtitle": "Full Stack Web Development",
-        "date": "09/2023 - Present",
-        "description": "Full-stack training with a strong hands-on focus and real-world projects. Demos available through the GitHub link in this document.",
-        "id": "2"
+        "date": "09/2023 - 04/2025",
+        "description": "Hands-on full stack training focused on web development fundamentals, JavaScript, React, Node.js and project-based learning."
       },
       {
+        "id": "1",
         "title": "Meta Backend Developer Specialization",
         "subtitle": "Backend Web Development",
         "date": "04/2022 - 09/2023",
-        "description": "This Meta course focused on the development of the backend of web applications. The main focus was Python, Django, and its ecosystem.",
-        "id": "1"
+        "description": "Backend development training focused on Python, Django, APIs, databases and server-side web application fundamentals."
       },
       {
+        "id": "0",
         "title": "High School Diploma, Business Administration, Finance and Marketing",
         "subtitle": "I.I.S. Mosè Bianchi, Monza (MB)",
-        "date": "09/2015 - 07/2019",
-        "id": "0"
+        "date": "09/2015 - 07/2019"
       }
     ],
     "experience": [
@@ -112,28 +108,14 @@
         "role": "Full Stack Web Developer",
         "company": "SXT - Sistemi per Telemedicina",
         "date": "06/2025 - Present",
-        "details": "Sviluppo e mantenimento di applicativi web in ambiente .NET ed Angular, nonchè cura del database, pipeline e rilasci."
+        "details": "Development and maintenance of web applications using .NET and Angular, with responsibilities across frontend, backend, databases, pipelines and software releases."
       },
       {
-        "role": "Driver",
-        "company": "Cazzaniga Autotrasporti, Villasanta (MB)",
-        "date": "04/2021 - 01/2023"
-      },
-      {
-        "role": "Cook",
-        "company": "Obikà, Milan (MI)",
-        "date": "04/2015 - 05/2019"
+        "role": "Previous work experience",
+        "details": "Previous roles in logistics and food service.",
+        "company": "Cazzaniga Autotrasporti; Obikà",
+        "date": "04/2015 - 01/2023"
       }
-    ],
-    "skills": [
-      "Javascript",
-      "HTML",
-      "CSS",
-      "React",
-      "SQL",
-      "Node.js",
-      "Express",
-      "Git"
     ],
     "languages": [
       {
